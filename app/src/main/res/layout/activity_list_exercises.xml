@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.olenka.fitforyou.ListExercises">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="VIEW KIND of EXERCISE"
+        android:textSize="28sp"
+        android:fontFamily="casual"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/fbutton_color_silver"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list_kind_sport"
+        android:layout_below="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

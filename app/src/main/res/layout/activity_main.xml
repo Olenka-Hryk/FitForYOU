@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:background="@drawable/fon_sart_program"
+    tools:context="com.example.olenka.fitforyou.MainActivity">
+
+    <TextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginLeft="41dp"
+        android:layout_marginStart="41dp"
+        android:fontFamily="casual"
+        android:text="Fit for YOU"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_below="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginTop="63dp"
+        android:src="@drawable/fit_for_you"
+        android:id="@+id/imageView"
+        />
+
+    <ImageView
+        android:layout_below="@id/imageView"
+        android:id="@+id/play_daily_training"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/play_app" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnExercise"
+                android:layout_height="wrap_content"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="Exercises"
+                android:textColor="@android:color/black"
+                android:textSize="20dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginBottom="24dp"
+                android:background="@color/colorPrimary"
+                />
+
+            <Button
+                android:id="@+id/btnSetting"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Calories"
+                android:textSize="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="0dp"
+                android:background="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnReminder"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Reminder"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            />
+
+        <Button
+            android:id="@+id/btnCalendar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Calendar"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="24dp"
+            android:background="@color/colorPrimary"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
