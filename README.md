@@ -1,5 +1,5 @@
 # Android APP - "FitForYOU"
-![](https://raw.githubusercontent.com/OlenkaA/FitForYOU/master/Readme%20images/github-readme-image-emblem.PNG)
+![](https://raw.githubusercontent.com/OlenkaA/FitForYOU/master/Readme%20images/github-readme-image-emblem.png)
 
 >Sport is getting more and more popular today. But it is still hard to plan your training useful and right with taking into account the technique of correct execution of exercises and their consistency. 
 
