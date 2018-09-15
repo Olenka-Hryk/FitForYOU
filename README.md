@@ -1,5 +1,5 @@
 # Android APP - "FitForYOU"
-![](/Readme images/github-readme-image-emblem.png)
+![](/Readme images/github-readme-image-emblem.PNG)
 
 >Sport is getting more and more popular today. But it is still hard to plan your training useful and right with taking into account the technique of correct execution of exercises and their consistency. 
 
@@ -37,7 +37,7 @@
 #### Clone the Repository
  As usual, you get started by cloning the project to your local machine:
  ```sh
- $ git://github.com/
+ $ git clone https://github.com/OlenkaA/FitForYOU.git
  ```
  
  
@@ -76,19 +76,19 @@ Used `tools`:
 <a name="markdown-header-project-screen-shots"></a>
 ## Project Screen Shots
 Get started with the program ***FitForYOU***. The initial application window:
-![](/Readme images/github-readme-image-start-menu.png)
+![](/Readme images/github-readme-image-start-menu.PNG)
 
 List of yoga exercises. Execution:
-![](/Readme images/github-readme-image-execution-exercise.png)
+![](/Readme images/github-readme-image-execution-exercise.PNG)
 
 Calculate calories per day:
-![](/Readme images/github-readme-image-calculation-calories.png)
+![](/Readme images/github-readme-image-calculation-calories.PNG)
 
 Perform a complete daily workout of 15 exercises:
-![](/Readme images/github-readme-image-daily-training.png)
+![](/Readme images/github-readme-image-daily-training.PNG)
 
 Alarm for workout and activity calendar:
-![](/Readme images/github-readme-image-activity-calendar.png)
+![](/Readme images/github-readme-image-activity-calendar.PNG)
 
 
 <a name="markdown-header-video-reporting"></a>
